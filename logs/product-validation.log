@@ -1,0 +1,20 @@
+[2025-04-09T19:47:38.282Z] [INFO] Starting product validation
+[2025-04-09T19:48:08.363Z] [ERROR] Validation failed: connect ECONNREFUSED ::1:27017
+[2025-04-09T19:48:08.365Z] [ERROR] MongooseServerSelectionError: connect ECONNREFUSED ::1:27017
+    at _handleConnectionErrors (C:\Users\Richard\apps\mvp\backend\node_modules\mongoose\lib\connection.js:816:11)
+    at NativeConnection.openUri (C:\Users\Richard\apps\mvp\backend\node_modules\mongoose\lib\connection.js:791:11)
+    at async validateProductReferences (file:///C:/Users/Richard/apps/mvp/backend/scripts/validateProductReferences.js:31:5)
+[2025-04-10T00:00:03.087Z] [INFO] Starting product validation
+[2025-04-10T00:00:33.193Z] [ERROR] Validation failed: connect ECONNREFUSED ::1:27017
+[2025-04-10T00:00:33.207Z] [ERROR] MongooseServerSelectionError: connect ECONNREFUSED ::1:27017
+    at _handleConnectionErrors (C:\Users\Richard\apps\mvp\backend\node_modules\mongoose\lib\connection.js:816:11)
+    at NativeConnection.openUri (C:\Users\Richard\apps\mvp\backend\node_modules\mongoose\lib\connection.js:791:11)
+    at async validateProductReferences (file:///C:/Users/Richard/apps/mvp/backend/scripts/validateProductReferences.js:31:5)
+[2025-04-10T23:59:55.360Z] [INFO] Starting product validation
+[2025-04-11T00:00:01.293Z] [INFO] Starting product validation
+[2025-04-11T00:06:22.836Z] [ERROR] Validation failed: connect ECONNREFUSED ::1:27017
+[2025-04-11T00:06:22.917Z] [ERROR] MongooseServerSelectionError: connect ECONNREFUSED ::1:27017
+    at _handleConnectionErrors (C:\Users\Richard\apps\mvp\backend\node_modules\mongoose\lib\connection.js:816:11)
+    at NativeConnection.openUri (C:\Users\Richard\apps\mvp\backend\node_modules\mongoose\lib\connection.js:791:11)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+    at async validateProductReferences (file:///C:/Users/Richard/apps/mvp/backend/scripts/validateProductReferences.js:31:5)
